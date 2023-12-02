@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+main {
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: linear-gradient(309deg, #EDE4FF 60.05%, rgba(237, 228, 255, 0.00) 119.13%);
+}
+
+.body-text {
+
+    display: flex;
+
+    font-family: "Montserrat", sans-serif;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 250px;
+
+}
+
+nav {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    min-height: 8vh;
+
+    background-color: teal;
+
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.logo img {
+    width: 125px;
+    height: 125px;
+}
+
+.nav-links {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    width: 30%;
+
+}
+
+.nav-links li {
+
+    list-style: none;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.nav-links a:hover:not(.active) {
+    background-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.nav-links li a.active {
+    background-color: #4caf50;
+    border-radius: 20px;
+}
+
+/* main {
+    margin-top: 100px;
+} */
+
+.home {
+    /* font-size: 3rem; */
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    position: relative;
+}
+
+.section1 {
+    /* color: aliceblue; */
+    width: 50%;
+    /* font-size: 3rem; */
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    width: 50%;
+    
+
+}
+
+.intro {
+    color: #1A7CD7;
+    font-family: Kaisei Opti;
+    font-size: 66.673px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 22.002px;
+}
+
+.brand {
+    /* float: right; */
+    /* clear:left; */
+    color: #000;
+    font-family: Kapakana;
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 33px;
+}
+
+.content {
+    position: relative;
+    top: 128px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 6.93px;
+}
+
+.image img {
+    position: relative;
+    border-radius: 1196px;
+    background: lightgray 50% / cover no-repeat;
+    top: -101px;
+
+}
+
+.buttons{
+    padding: 128px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(108deg, #A076F9 6.93%, rgba(160, 118, 249, 0.36) 95.84%);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.078px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.forward {
+    text-align: center;
+    justify-content: center;
+}
