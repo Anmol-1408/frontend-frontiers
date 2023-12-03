@@ -4,13 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
-main {
+header {
     border-radius: 20px;
     border: 1px solid #000;
-    background: linear-gradient(309deg, #EDE4FF 60.05%, rgba(237, 228, 255, 0.00) 119.13%);
+    background: url(assets/INNAYAT\ TEAM\ 1.png), linear-gradient(309deg, #EDE4FF 60.05%, rgba(237, 228, 255, 0.00) 119.13%) 50% / cover no-repeat;
 }
 
 .body-text {
@@ -28,17 +27,10 @@ main {
 }
 
 nav {
-
     display: flex;
-
     justify-content: space-around;
-
     align-items: center;
-
     min-height: 8vh;
-
-    background-color: teal;
-
     font-family: "Montserrat", sans-serif;
 
 }
@@ -65,7 +57,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: #000;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -74,12 +66,14 @@ nav {
 }
 
 .nav-links a:hover:not(.active) {
-    background-color: lightseagreen;
+    background-color: #F9F9F9;
+    ;
     border-radius: 20px;
 }
 
 .nav-links li a.active {
-    background-color: #4caf50;
+    background-color: #F9F9F9;
+    ;
     border-radius: 20px;
 }
 
@@ -107,8 +101,33 @@ nav {
 
 .section2 {
     width: 50%;
-    
+    display: flex;
 
+
+}
+
+.boxes{
+    position: relative;
+    display: grid;
+    top:-101px
+}
+
+
+.box1 {
+    position: relative;
+    width: 99px;
+    height: 512px;
+    flex-shrink: 0;
+    background: linear-gradient(177deg, rgba(204, 204, 204, 0.23) 0%, #A87FF2 99.33%);
+
+}
+
+.box2 {
+    position: relative;
+    width: 99px;
+    height: 512px;
+    flex-shrink: 0;
+    background: linear-gradient(177deg, rgba(101, 40, 247, 0.36) 0.58%, #2E1369 100%);
 }
 
 .intro {
@@ -150,12 +169,20 @@ nav {
     position: relative;
     border-radius: 1196px;
     background: lightgray 50% / cover no-repeat;
-    top: -101px;
+    top: -235px;
+    /* left: 87px; */
+    opacity: 0.5;
+    clip-path: circle(100.0% at 100% 49%);
+    overflow: hidden;
 
 }
 
-.buttons{
-    padding: 128px;
+.buttons {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    /* padding: 128px; */
 }
 
 .btn {
@@ -169,9 +196,22 @@ nav {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 76px;
 }
 
 .forward {
     text-align: center;
     justify-content: center;
+}
+
+@media (max-width: 890px) {
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .section2 img {
+        width: 595px;
+        height: 595px;
+        flex-shrink: 0;
+    }
 }
