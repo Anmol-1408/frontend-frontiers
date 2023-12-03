@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.heading {
+    color: #000;
+    font-family: IBM Plex Sans Thai;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5.07px;
+    text-decoration-line: underline;
+    position: relative;
+    top: 102px;
+    left: 64px;
+}
+
+.one {
+    position: relative;
+    width: 812.338px;
+    height: 625.524px;
+    transform: rotate(-149.837deg);
+    bottom: 356px;
+    left: 856px;
+}
+
+.form {
+    box-shadow: 60.96px 60.96px 60.96px 60.96px rgba(130, 130, 130, 0.18);
+    display: flex;
+    width: 838.649px;
+    height: 343.52px;
+    padding: 42.22px 49.897px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 60.96px;
+    bottom: 331px;
+    left: 324px;
+}
+
+form{
+    margin: 20px;
+}
+
+
+form input[type=text] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    margin-top: 26px;
+}
+
+form input[type=email] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 22.07px;
+    background: #A076F9;
+    display: flex;
+    height: 34.544px;
+    padding: 9.596px;
+    align-items: flex-start;
+    gap: 9.596px;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 11.515px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.382px;
+    border: none;
+    margin-top: 26px;
+}
+
+.two {
+    width: 1440px;
+    height: 352px;
+    position: relative;
+    right: 334px;
+}
+
+.two img{
+    border: 3.65px solid #FFF;
+    background: rgba(255, 255, 255, 0.39);
+    filter: blur(13.350000381469727px);
+}
